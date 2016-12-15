@@ -8,4 +8,4 @@ Also enter the ip adress of your steca inverter, which is displayed on the inver
 Once you run the script, your local inverter values are collected for that moment and uploaded to pvoutput
 I run this script on a raspberry pi (which runs linux for Domoticz) every 5 minutes, so pvoutput is updated frequently
 use the following crontab line
-*/5 * * * * <locationToYourScript>/uploadPV_public.sh
+*/5 * * * * [locationToYourScript]/uploadPV_public.sh
